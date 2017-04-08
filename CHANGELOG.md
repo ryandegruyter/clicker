@@ -1,6 +1,6 @@
 <a name="2.9.1"></a>
 # 2.9.1 (2017-03-14)
-
+te
 ### Bug Fixes
 
 * **Build**: Reinstate tsconfig.json excludes for `ionic build --prod` [#227](https://github.com/lathonez/clicker/issues/236) ([](https://github.com/lathonez/clicker/commit/))
