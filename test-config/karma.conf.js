@@ -5,13 +5,7 @@ module.exports = function (config) {
     basePath: '',
 
     frameworks: ['jasmine'],
-'seleniumAddress': 'http://hub-cloud.browserstack.com/wd/hub',
 
-  'capabilities': {
-    'browserstack.user': 'ryandegruyter1',
-    'browserstack.key': 'MHDuSpLiEwcHTXp3vDb7',
-    'browserName': 'chrome'
-  },
     files: [
       {pattern: './karma-test-shim.js', watched: true}
     ],
