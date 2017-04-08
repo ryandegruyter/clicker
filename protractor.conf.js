@@ -8,10 +8,13 @@ exports.config = {
   specs: [
     './e2e/**/*.e2e-spec.ts'
   ],
-  browserName: 'chrome',
-    chromeOptions: {
-      args: ['--no-sandbox']
-    }
+  'seleniumAddress': 'http://hub-cloud.browserstack.com/wd/hub',
+
+  'capabilities': {
+    'browserstack.user': 'ryandegruyter1',
+    'browserstack.key': 'MHDuSpLiEwcHTXp3vDb7',
+    'browserName': 'chrome'
+  },
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
